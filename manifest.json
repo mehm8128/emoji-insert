@@ -1,0 +1,10 @@
+{
+	"name": "Emoji Insert",
+	"version": "1.0.0",
+	"manifest_version": 3,
+	"permissions": ["tabs", "scripting"],
+	"host_permissions": ["https://github.com/*"],
+	"background": {
+    "service_worker": "main.js"
+  }
+}
